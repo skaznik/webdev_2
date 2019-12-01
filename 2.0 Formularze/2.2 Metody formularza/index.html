@@ -5,13 +5,15 @@
     <title>Title</title>
 </head>
 <body>
+<!-- dodaje wartości do URL -->
 <h1>Metoda GET</h1>
-<form action="/test">
+<form action="/test" method="get">
     <input type="text" name="imie">
     <input type="submit">
 </form>
+<!-- metoda wysyłania po HTTP (nie wysyłać wrażliwych danych tą metodą !!!!!)-->
 <h2>Metoda POST</h2>
-<form action="/test">
+<form action="/test" method="post">
     <input type="text" name="nazwisko">
     <input type="submit">
 </form>
